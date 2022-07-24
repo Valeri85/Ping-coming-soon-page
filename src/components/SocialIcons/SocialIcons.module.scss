@@ -6,17 +6,20 @@
 	padding-block: 2em;
 
 	a.socialIcon {
+		--iconSize: 2.5em;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.5em;
-		height: 2.5em;
+		width: var(--iconSize);
+		height: var(--iconSize);
 		padding: 0.65em;
-		border: 1px solid var(--clr-primary-400);
+		border: 1px solid var(--clr-secondary-300);
 		border-radius: var(--border-radius);
-		transition: background-color var(--animation-time) ease-in-out;
+		transition: background-color var(--animation-time) ease-in-out,
+			border var(--animation-time) ease-in-out;
 		&:hover {
 			background-color: var(--clr-primary-400);
+			border: 1px solid var(--clr-secondary-300);
 			svg {
 				fill: var(--clr-secondary-100);
 			}
