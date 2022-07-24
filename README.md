@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/ping-coming-soon-page-_XnISW93En)
+-   Live Site URL: [Ping coming soon page](https://ping-coming-soon-page-front-end-mentor.vercel.app/)
 
 ## My process
 
@@ -52,9 +52,9 @@ Users should be able to:
 -   [PnPm](https://pnpm.io/) - Fast, disk space efficient package manager
 -   [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
 -   [SASS](https://sass-lang.com/) - CSS Preprocessor
+-   [CSS Modules](https://github.com/css-modules/css-modules) - For styles
 -   [React](https://reactjs.org/) - JS library
 -   [Typescript](https://www.typescriptlang.org/) - Superset of JavaScript
--   [CSS Modules](https://github.com/css-modules/css-modules) - For styles
 
 ## Author
 
