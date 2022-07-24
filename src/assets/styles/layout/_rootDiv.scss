@@ -1,0 +1,10 @@
+@use '../helpers/mixins' as *;
+
+#root {
+	display: grid;
+	height: 100%;
+	margin-block: 1em;
+	@include large-screen {
+		margin-block: 0;
+	}
+}
