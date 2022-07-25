@@ -9,10 +9,12 @@ export const Header: FC = () => {
 	return (
 		<header className={classes.header}>
 			<Nav />
-			<h1>
+			<h1 className={classes.mainTitle}>
 				We are launching <strong>soon!</strong>
 			</h1>
-			<h2>Subscribe and get notified</h2>
+			<h2 className={classes.secondaryTitle}>
+				Subscribe and get notified
+			</h2>
 			<Form />
 		</header>
 	);

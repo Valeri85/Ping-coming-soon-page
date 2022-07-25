@@ -16,7 +16,7 @@ export const Form: FC = () => {
 				? setErrorMessage(
 						'Whoops! It looks like you forgot to add your email'
 				  )
-				: setErrorMessage('Please provide a valid email adress');
+				: setErrorMessage('Please provide a valid email address');
 		}
 		setEnteredEmail('');
 	};
@@ -26,24 +26,34 @@ export const Form: FC = () => {
 
 	return (
 		<form className={classes.form} onSubmit={handleSubmit}>
-			<fieldset>
-				<label htmlFor="email">Email:</label>
+			<fieldset className={classes.fieldset}>
+				<label className={classes.label} htmlFor="email">
+					Email:
+				</label>
 				<input
-					className={isError ? classes.error : ''}
+					className={`${classes.input} ${
+						isError ? classes.error : ''
+					}`}
 					id="email"
 					type="text"
 					name="email"
 					value={enteredEmail}
 					onChange={handleChange}
 					placeholder="Your email address..."
+					aria-describedby="errorText"
 				/>
 			</fieldset>
-			{isError && (
-				<p role="alert" aria-live="assertive">
-					<em>{errorMessage}</em>
-				</p>
-			)}
-			<button>Notify Me</button>
+			<p
+				className={classes.errorText}
+				id="errorText"
+				aria-hidden={isError ? 'false' : 'true'}
+				aria-live="assertive"
+			>
+				<em>{isError && errorMessage}</em>
+			</p>
+			<button className={classes.button} type="submit">
+				Notify Me
+			</button>
 		</form>
 	);
 };

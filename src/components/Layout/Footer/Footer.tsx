@@ -11,6 +11,7 @@ export const Footer: FC = () => (
 		<p>
 			Challenge by
 			<a
+				className={classes.frontEndMentor}
 				href="https://www.frontendmentor.io?ref=challenge"
 				target="_blank"
 				rel="noopener"
@@ -23,6 +24,7 @@ export const Footer: FC = () => (
 		<p>
 			Coded by
 			<a
+				className={classes.frontEndMentor}
 				href="https://www.frontendmentor.io/profile/Valeri85"
 				target="_blank"
 				rel="noopener"

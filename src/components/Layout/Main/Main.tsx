@@ -7,9 +7,9 @@ export const Main: FC = () => (
 	<main className={classes.main}>
 		<img
 			src={DashboardImg}
-			alt="dashboard picture"
 			width="1280"
 			height="782"
+			alt="dashboard picture"
 		/>
 	</main>
 );

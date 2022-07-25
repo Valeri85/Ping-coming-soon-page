@@ -5,11 +5,12 @@
 	font-weight: var(--font-weight-300);
 	text-align: center;
 
-	a {
-		color: var(--clr-primary-400);
-		transition: color var(--animation-time) ease;
-		&:hover {
-			color: var(--clr-secondary-400);
-		}
+}
+
+.frontEndMentor {
+	color: var(--clr-primary-400);
+	transition: color var(--animation-time) ease;
+	&:hover {
+		color: var(--clr-secondary-400);
 	}
 }

@@ -4,34 +4,34 @@
 	justify-content: center;
 	gap: 1em;
 	padding-block: 2em;
+}
 
-	a.socialIcon {
-		--iconSize: 2.5em;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: var(--iconSize);
-		height: var(--iconSize);
-		padding: 0.65em;
+.socialIconLink {
+	--iconSize: 2.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: var(--iconSize);
+	height: var(--iconSize);
+	padding: 0.65em;
+	border: 1px solid var(--clr-secondary-300);
+	border-radius: var(--border-radius);
+	transition: background-color var(--animation-time) ease-in-out,
+		border var(--animation-time) ease-in-out;
+	&:hover {
+		background-color: var(--clr-primary-400);
 		border: 1px solid var(--clr-secondary-300);
-		border-radius: var(--border-radius);
-		transition: background-color var(--animation-time) ease-in-out,
-			border var(--animation-time) ease-in-out;
-		&:hover {
-			background-color: var(--clr-primary-400);
-			border: 1px solid var(--clr-secondary-300);
-			svg {
-				fill: var(--clr-secondary-100);
-			}
+		svg {
+			fill: var(--clr-secondary-100);
 		}
 	}
+}
 
-	a.facebook {
-		padding: 0.75em;
-	}
+.facebookLink {
+	padding: 0.75em;
+}
 
-	svg {
-		fill: var(--clr-primary-400);
-		transition: fill var(--animation-time) ease-in-out;
-	}
+.icon {
+	fill: var(--clr-primary-400);
+	transition: fill var(--animation-time) ease-in-out;
 }

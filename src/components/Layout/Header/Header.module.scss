@@ -1,18 +1,19 @@
 .header {
 	text-align: center;
 
-	h1 {
-		font-size: var(--font-size-h1);
-		strong {
-			font-weight: var(--font-weight-700);
-			color: var(--clr-neutral-400);
-		}
-	}
+}
 
-	h2 {
-		margin: 0.5em 0 2em;
-		font-size: var(--font-size-h2);
-		font-weight: var(--font-weight-600);
+.mainTitle {
+	font-size: var(--font-size-h1);
+	strong {
+		font-weight: var(--font-weight-700);
 		color: var(--clr-neutral-400);
 	}
+}
+
+.secondaryTitle {
+	margin: 0.5em 0 2em;
+	font-size: var(--font-size-h2);
+	font-weight: var(--font-weight-600);
+	color: var(--clr-neutral-400);
 }
