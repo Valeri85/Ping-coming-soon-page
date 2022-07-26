@@ -18,6 +18,7 @@ export const Form: FC = () => {
 				  )
 				: setErrorMessage('Please provide a valid email address');
 		}
+		if (regex.test(enteredEmail)) setIsError(false);
 		setEnteredEmail('');
 	};
 
@@ -46,10 +47,9 @@ export const Form: FC = () => {
 			<p
 				className={classes.errorText}
 				id="errorText"
-				aria-hidden={isError ? 'false' : 'true'}
 				aria-live="assertive"
 			>
-				<em>{isError && errorMessage}</em>
+				<span>{isError && errorMessage}</span>
 			</p>
 			<button className={classes.button} type="submit">
 				Notify Me
