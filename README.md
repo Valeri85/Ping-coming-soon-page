@@ -49,12 +49,14 @@ Users should be able to:
 -   Flexbox
 -   CSS Grid
 -   Mobile-first workflow
--   [PnPm](https://pnpm.io/) - Fast, disk space efficient package manager
--   [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
--   [SASS](https://sass-lang.com/) - CSS Preprocessor
--   [CSS Modules](https://github.com/css-modules/css-modules) - For styles
 -   [React](https://reactjs.org/) - JS library
 -   [Typescript](https://www.typescriptlang.org/) - Superset of JavaScript
+-   [SASS](https://sass-lang.com/) - CSS Preprocessor
+-   [PostCss](https://postcss.org/) - A tool for transforming CSS with JavaScript
+-   [Autoprefixer](https://github.com/postcss/autoprefixer) - PostCSS plugin which parses your CSS and adds vendor prefixes
+-   [CSS Modules](https://github.com/css-modules/css-modules) - For styles
+-   [PnPm](https://pnpm.io/) - Fast, disk space efficient package manager
+-   [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
 
 ## Author
 
