@@ -1,9 +1,15 @@
+/* Importing the `FC` type from the `react` package. */
 import { FC } from 'react';
 
+/* Importing the `SocialIcons` component from the `SocialIcons` folder. */
 import { SocialIcons } from '../../SocialIcons/SocialIcons';
 
+/* Importing the CSS file. */
 import classes from './Footer.module.scss';
 
+/**
+ * It's a function that returns a footer element with a bunch of social icons.
+ */
 export const Footer: FC = () => (
 	<footer className={classes.footer}>
 		<SocialIcons />

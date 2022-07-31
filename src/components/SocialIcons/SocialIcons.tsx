@@ -1,6 +1,13 @@
+/* Importing the React library and assigning it to the variable FC. */
+import { FC } from 'react';
+
+/* Importing the CSS file and assigning it to the variable classes. */
 import classes from './SocialIcons.module.scss';
 
-export const SocialIcons = () => (
+/**
+ * A React component that returns social icons list with three li elements of social icons, each of which contains an a element with an svg icons of "Facebook", "Twitter" and "Instagram" inside.
+ */
+export const SocialIcons: FC = () => (
 	<ul className={classes.socialIcons}>
 		<li>
 			<a
