@@ -32,8 +32,10 @@ export const Form: FC = () => {
 				  )
 				: setErrorMessage('Please provide a valid email address');
 		}
-		if (regex.test(enteredEmail)) setIsError(false);
-		setEnteredEmail('');
+		if (regex.test(enteredEmail)) {
+			setIsError(false);
+			setEnteredEmail('');
+		}
 	};
 
 	/**
